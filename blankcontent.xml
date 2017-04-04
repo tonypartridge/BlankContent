@@ -7,7 +7,7 @@
     <author>Tony Partridge</author>
     <authorEmail>tony@xws.im</authorEmail>
     <authorUrl>https://www.xws.im</authorUrl>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <description>A basic component to allow you to have a clear content area. To load a page completely of modules in most cases.</description>
     <uninstall> <!-- Runs on uninstall -->
         <sql>
@@ -35,4 +35,7 @@
 			<language tag="en-GB">en-GB/en-GB.com_blankcontent.sys.ini</language>
         </languages>
     </administration>
+    <updateservers>
+        <server type="extension" priority="2" name="Blank Content">http://updates.xws.im/com_blankcontent/com_blankcontent.xml</server>
+    </updateservers>
 </extension>
